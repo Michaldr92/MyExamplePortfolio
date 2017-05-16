@@ -1,0 +1,152 @@
+
+#button-about {
+	position: absolute;
+	z-index: 1;
+	top: 15vh;
+	left: 12vw;
+	visibility: hidden;	
+	width: 10vw;
+	height: 5vh;
+	border: 2px solid #99d9ea;
+	background: rgba(2, 254, 255, 0.2);
+	border-radius: 20%;
+	transform: rotateY(-30deg) translateZ(-200px);
+	transform: rotateZ(0deg);
+	transition: box-shadow 3s ease;
+	text-align: center;
+	line-height: 5vh;
+}
+
+#button-about:hover{
+	box-shadow: 0px 0px 30px rgba(2, 254, 255, 0.8);
+	transition: 0.3s;
+	text-decoration: none;
+}
+
+
+#button-skills {
+	position: absolute;
+	z-index: 1;
+	top: 15vh;
+	left: 28vw;
+	visibility: hidden;	
+	width: 10vw;
+	height: 5vh;
+	border: 2px solid #99d9ea;
+	background: rgba(2, 254, 255, 0.2);
+	border-radius: 20%;
+	transform: rotateY(-30deg) translateZ(-200px);
+	transform: rotateZ(0deg);
+	transition: box-shadow 3s ease;
+	text-align: center;
+	line-height: 5vh;
+}
+
+#button-skills:hover{
+	box-shadow: 0px 0px 30px rgba(2, 254, 255, 0.8);
+	transition: 0.3s;
+	text-decoration: none;
+}
+
+#button-projects {
+		position: absolute;
+	z-index: 1;
+	top: 15vh;
+	left: 45vw;
+	visibility: hidden;	
+	width: 10vw;
+	height: 5vh;
+	border: 2px solid #99d9ea;
+	background: rgba(2, 254, 255, 0.2);
+	border-radius: 20%;
+	transform: rotateY(-30deg) translateZ(-200px);
+	transform: rotateZ(0deg);
+	transition: box-shadow 3s ease;
+	text-align: center;
+	line-height: 5vh;
+}
+
+#button-projects:hover{
+	box-shadow: 0px 0px 30px rgba(2, 254, 255, 0.8);
+	transition: 0.3s;
+	text-decoration: none;
+}
+
+#button-social {
+	position: absolute;
+	z-index: 1;
+	top: 15vh;
+	right: 28vw;
+	visibility: hidden;	
+	width: 10vw;
+	height: 5vh;
+	border: 2px solid #99d9ea;
+	background: rgba(2, 254, 255, 0.2);
+	border-radius: 20%;
+	transform: rotateY(-30deg) translateZ(-200px);
+	transform: rotateZ(0deg);
+	transition: box-shadow 3s ease;
+	text-align: center;
+	line-height: 5vh;
+}
+
+#button-social:hover{
+	box-shadow: 0px 0px 30px rgba(2, 254, 255, 0.8);
+	transition: 0.3s;
+	text-decoration: none;
+}
+
+#button-contact {
+	position: absolute;
+	z-index: 1;
+	top: 15vh;
+	right: 12vw;
+	visibility: hidden;	
+	width: 10vw;
+	height: 5vh;
+	border: 2px solid #99d9ea;
+	background: rgba(2, 254, 255, 0.2);
+	border-radius: 20%;
+	transform: rotateY(-30deg) translateZ(-200px);
+	transform: rotateZ(0deg);
+	transition: box-shadow 3s ease;
+	text-align: center;
+	line-height: 5vh;
+}
+
+#button-contact:hover{
+	box-shadow: 0px 0px 30px rgba(2, 254, 255, 0.8);
+	transition: 0.3s;
+	text-decoration: none;
+}
+
+
+.information{
+    color:#99d9ea;
+	top: 28vh;
+	width: 50vw;
+	height: 59vh;
+	left: 4vw;
+	background: rgba(2, 254, 255, 0.2);
+	border: 2px solid #99d9ea;
+    display:none;
+    text-align:justify;
+	position: absolute;
+	border-radius: 10px;
+}
+
+.information:hover{
+	box-shadow: 0px 0px 30px rgba(2, 254, 255, 0.8);
+	transition: 0.3s;
+	text-decoration: none;
+	cursor: not-allowed;
+}
+
+.information p {
+    margin: 15px;
+    font-size: 0.917em;
+}
+
+hr {
+    margin-bottom:2vh;
+}

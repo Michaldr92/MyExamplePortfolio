@@ -1,0 +1,163 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+
+[class*="entypo-"]:before {
+	font-family: 'entypo', sans-serif;
+	transition: 0.3s;
+}
+
+* {
+	user-select: none;
+	font: 1vw 'Agency FB', sans-serif;
+}
+
+html, body {
+    background: black; /*#444444*/
+    color: #02feff;
+	height: 100vh;
+	overflow: hidden;
+	width: 100vw;
+	margin: 0 auto;
+}
+
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration:none;
+	color: #99d9ea;
+}
+
+.container-fluid {
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#myCanvas{
+	height: 100vh;
+	width: 100vw;
+}
+
+#img{		
+	z-index:1;	  
+	position: relative;
+	width: 100vw;
+}
+
+#img_center{
+	z-index:1;	  
+	position: relative;
+	height: 65vh;
+}
+
+#img_left{
+	z-index:1;	  
+	position: relative;
+	height: 65vh;
+	width:3vw;
+}
+
+#img_right{
+	z-index:1;	  
+	position: relative;
+	height: 65vh;
+	width:3vw;
+}
+
+#img_footer{
+	z-index:1;	  
+	position: relative;
+	width: 20vw;
+}
+
+#logo {
+	position: absolute;
+	top: 0px;
+	visibility: hidden;
+}
+
+#center_bar {
+	right: 15vw;
+	position: absolute;
+	top: 25vh;
+	visibility: hidden;		
+}
+#left_bar{
+	position: absolute;
+	top: 25vh;
+	visibility: hidden;	
+}
+
+#right_bar{
+	right: 0;
+	position: absolute;
+	top: 25vh;
+	visibility: hidden;	
+}
+
+#time {
+	margin-left: 15px;
+	top: 5px;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.8);
+	line-height: 0;
+	z-index: 1;
+	display:none  
+}
+
+#date {
+	right: 15px;
+	top: 5px;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.8);
+	line-height: 0;
+	z-index: 1;
+	display:none 
+}
+
+#footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+}
+
+#current_date {
+	font-size: 1em; /*18px;*/
+}
+#current_time {
+	font-size: 1em; /*18px;*/
+}
+
+
+@media only screen and (max-width: 320px) {
+
+   body { 
+	font-size: 2em; 
+	background-color: black;
+	
+   }
+   
+   #myCanvas{
+	   display:none;
+   }
+      .information {
+	   width: 100vw;
+	   height: 50vh;
+   }
+   
+   
+
+}
+
+@media only screen and (max-width: 480px) {
+
+   body { font-size: 2em; 	background-color: black;}
+	   #myCanvas{
+	   display:none;
+   }
+      .information {
+	   width: 100vw;
+	   height: 50vh;
+   }
+}
